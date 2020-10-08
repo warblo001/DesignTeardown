@@ -4,4 +4,25 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  display: flex;
+  background:gainsboro;
+  width: 100%;
+}
 
+.logo {
+  background:#808080;
+  border-radius: 5px;
+  width: 15%;
+}
+
+.nav-icons {
+  background: #A9A9A9;
+  list-style: none;
+}
+
+.search-bar {
+  width: 20%;
+  background:#808080;
+  border-radius: 5px;
+}
