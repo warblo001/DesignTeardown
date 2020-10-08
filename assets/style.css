@@ -71,8 +71,8 @@ p,h1 {
 }
 
 .latest-one-configone img {
-  padding-left: 60px;
-  padding-top: 200px;
+  padding-left: 19%;
+  padding-top: 40%;
   transform: rotate(-10deg);
 }
 
@@ -80,14 +80,15 @@ p,h1 {
   clear: both;
   width: 30%;
   float: right;
-  margin-top: 230px;
-  margin-right: 10px;
-  margin-right: 180px;
+  margin-top: 40%;
+  margin-right: 30%;
 
 }
 
 .latest-one-configtwo {
-  margin: 20px;
+  margin: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .latest-two {
