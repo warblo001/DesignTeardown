@@ -162,3 +162,31 @@ p,h1, h2, h3 {
   background: #A9A9A9;
 }
 
+.red-guy {
+  display: flex;
+  background:#C0C0C0 ;
+  width: 100%;
+  height: 400px;
+  justify-items: center;
+}
+
+
+.text-red  {
+  width: 50%;
+  height: 100%;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.image-red {
+  width: 20%;
+  height: 100%;
+  background:#C0C0C0 ;
+  margin-left: 70px;
+}
+.image {
+  height: 70%;
+  width: 100%;
+  background: #696969;
+  padding-bottom: 100px;
+}
