@@ -25,6 +25,10 @@ p,h1 {
   height: 70px;
 }
 
+.logo:hover{
+  cursor: pointer;
+}
+
 .nav-main {
   width: 70%;
   height: 100px;
@@ -43,14 +47,20 @@ p,h1 {
   width: 10%;
   height: 60px;
   border-radius: 5px;
-  
 }
 
+.nav-icons:hover { 
+  cursor: pointer;
+  background:#808080; 
+}
 .search-bar {
   width: 15%;
   background:#808080;
   border-radius: 5px;
   height: 70px;
+}
+.search-bar:hover{
+  cursor: text;
 }
 
 .latest-articles {
@@ -68,12 +78,17 @@ p,h1 {
 .latest-one {
   height: 100%;
   background: #A9A9A9;
+  cursor: pointer;
 }
 
 .latest-one-configone img {
   padding-left: 19%;
   padding-top: 40%;
-  transform: rotate(-10deg);
+transform: rotate(-10deg);
+}
+
+.latest-one-configone img:hover {
+  transform: rotate(0deg);
 }
 
 .latest-one-configone p{
@@ -82,7 +97,6 @@ p,h1 {
   float: right;
   margin-top: 40%;
   margin-right: 30%;
-
 }
 
 .latest-one-configtwo {
@@ -92,7 +106,13 @@ p,h1 {
 }
 
 .latest-two {
-  background: #C0C0C0;
+  height: 100%;
+  background: #A9A9A9;
+  cursor: pointer;
+}
+
+.latest-one-configone img{
+
 }
 
 .latest-three {
