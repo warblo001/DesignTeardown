@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-p,h1 {
+p,h1, h2, h3 {
   background: #808080;
   color: #808080;
 }
@@ -53,30 +53,32 @@ p,h1 {
   cursor: pointer;
   background:#808080; 
 }
+
 .search-bar {
   width: 15%;
   background:#808080;
   border-radius: 5px;
   height: 70px;
 }
+
 .search-bar:hover{
   cursor: text;
 }
 
 .latest-articles {
   display: flex;
-  height: 80vh;
+  height: 100%;
   width: 100%;
 }
 
 .latest {
-  border: 1px solid purple;
   width: 33.33333%;
-  height: 80vh;
+  height: 100%;
+  cursor: pointer;
 }
 
 .latest-one {
-  height: 100%;
+  height: 700px;
   background: #A9A9A9;
   cursor: pointer;
 }
@@ -84,7 +86,7 @@ p,h1 {
 .latest-one-configone img {
   padding-left: 19%;
   padding-top: 40%;
-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 .latest-one-configone img:hover {
@@ -100,21 +102,63 @@ transform: rotate(-10deg);
 }
 
 .latest-one-configtwo {
+  height: 100%;
   margin: 30px;
   margin-left: 20%;
   margin-right: 20%;
 }
 
 .latest-two {
-  height: 100%;
-  background: #A9A9A9;
+  height: 700px;
+  background: #C0C0C0;;
   cursor: pointer;
 }
 
-.latest-one-configone img{
+.latest-two-configone img{
+  padding-left: 19%;
+  padding-top: 10%;
+  transform: rotate(-10deg);
+}
 
+.latest-two-configone img:hover {
+  transform: rotate(0deg);
+}
+
+.latest-two-configone p{
+  clear: both;
+  width: 30%;
+  float: right;
+  margin-top: 10%;
+  margin-right: 30%;
+}
+
+.latest-two-configtwo {
+  height: 100%;
+  margin: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.latest-two-configtwo p{
+  margin-top: 10px;
+  width: 215px;
+}
+
+.latest-two-configone h2{
+  margin-left: 20%;
+  width: 60%;
+  font-size: 40px;
+}
+
+.latest-two-configone h3{
+  margin-left: 50%;
+  width: 40%;
+  font-size: 30px;
+  margin-bottom: 12%;
 }
 
 .latest-three {
+  height: 700px;
   background: #A9A9A9;
 }
+
