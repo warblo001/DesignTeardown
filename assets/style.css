@@ -458,3 +458,33 @@ h3{
   transform: rotate(0deg);
   cursor: pointer;
 }
+
+.community-links-grid {
+  display: grid;
+  width: 100%;
+  height: 1000px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  padding: 50px;
+  border: 10px solid orange;
+}
+
+.grid-div {
+  display: flex;
+  width: 100%;
+  height: 33.333%;
+}
+
+.grid-image {
+  width: 80px;
+  height: 80px;
+  background:#a9a9a9;
+  transform: rotate(-15deg);
+}
+
+.grid-text {
+  width: 400px;
+  height: 100%;
+  margin-left: 20px;
+}
