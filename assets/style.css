@@ -13,6 +13,10 @@ body{
   background: gainsboro;
 }
 
+h3{
+  cursor: pointer;
+}
+
 .navbar {
   display: flex;
   background:gainsboro;
@@ -239,8 +243,8 @@ body{
 }
 
 .image-post {
-  width:28%;
-  height:17%;
+  width:100px;
+  height:100px;
   background: #A9A9A9;
   position: absolute;
   bottom: 20px;
@@ -278,6 +282,10 @@ body{
   margin-top: 20px;
 }
 
+.smashing-members-main p {
+  cursor: pointer;
+}
+
 .smashing-member-left {
   width: 50%;
   height: 100%;
@@ -292,6 +300,7 @@ body{
   width: 40%;
   height: 250px;
   background: #808080;
+  cursor: pointer;
 }
 
 .text-sm {
@@ -314,6 +323,7 @@ body{
   color: #808080;
   background: #808080;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .smashing-member-right {
@@ -328,6 +338,7 @@ body{
   position: relative;
   margin: 20px;
   padding: 20px;
+  cursor: pointer;
 }
 
 .smashing-member-right-column h2 {
@@ -339,8 +350,8 @@ body{
 }
 
 .image-posts {
-  width:30%;
-  height:15%;
+  width:100px;
+  height:100px;
   background: #A9A9A9;
   position: absolute;
   bottom: 30px;
@@ -350,4 +361,21 @@ body{
 .smashing-member-right-column:hover {
   transform: scale(1.05);
   background: white;
+}
+
+.smashing-members-tb {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  background: gainsboro;
+  margin-top: 20px;
+  flex-direction: row-reverse;
+}
+
+.modify-h3 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
