@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
-p,h1, h2, h3 {
+p, h1, h2, h3 {
   background: #808080;
   color: #808080; 
 } 
+
+body{
+  background: gainsboro;
+}
 
 .navbar {
   display: flex;
@@ -25,7 +29,7 @@ p,h1, h2, h3 {
   height: 70px;
 }
 
-.logo:hover{
+.logo:hover {
   cursor: pointer;
 }
 
@@ -34,7 +38,7 @@ p,h1, h2, h3 {
   height: 100px;
 }
 
-.nav-icons-main{
+.nav-icons-main {
   display: flex;
   height: 71px;
   justify-content: space-between;
@@ -62,7 +66,7 @@ p,h1, h2, h3 {
   cursor: text;
 }
 
-.search-bar:hover{
+.search-bar:hover {
   cursor: text;
 }
 
@@ -99,7 +103,7 @@ p,h1, h2, h3 {
   width: 30%;
   float: right;
   margin-top: 40%;
-  margin-right: 30%;
+  margin-right: 20%;
 }
 
 .latest-one-configtwo {
@@ -115,7 +119,7 @@ p,h1, h2, h3 {
   cursor: pointer;
 }
 
-.latest-two-configone img{
+.latest-two-configone img {
   padding-left: 19%;
   padding-top: 10%;
   transform: rotate(-10deg);
@@ -125,12 +129,12 @@ p,h1, h2, h3 {
   transform: rotate(0deg);
 }
 
-.latest-two-configone p{
+.latest-two-configone p {
   clear: both;
   width: 30%;
   float: right;
   margin-top: 10%;
-  margin-right: 30%;
+  margin-right: 22%;
 }
 
 .latest-two-configtwo {
@@ -140,18 +144,19 @@ p,h1, h2, h3 {
   margin-right: 20%;
 }
 
-.latest-two-configtwo p{
+.latest-two-configtwo p {
   margin-top: 10px;
   width: 215px;
+  margin-left: 10%;
 }
 
-.latest-two-configone h2{
+.latest-two-configone h2 {
   margin-left: 20%;
   width: 60%;
   font-size: 40px;
 }
 
-.latest-two-configone h3{
+.latest-two-configone h3 {
   margin-left: 50%;
   width: 40%;
   font-size: 30px;
@@ -181,7 +186,7 @@ p,h1, h2, h3 {
   cursor: pointer;
 }
 
-.text-red h1{
+.text-red h1 {
   width: 50%;
   cursor: pointer;
 }
@@ -227,16 +232,15 @@ p,h1, h2, h3 {
 .latest-posts:hover {
   transform: scale(1.05);
   background: white;
-
 }
 
-.latest-posts p{
+.latest-posts p {
   font-size: 20px;
 }
 
 .image-post {
-  width:30%;
-  height:15%;
+  width:28%;
+  height:17%;
   background: #A9A9A9;
   position: absolute;
   bottom: 20px;
@@ -250,13 +254,13 @@ p,h1, h2, h3 {
   margin-left: 10px;
 }
 
-.shopify p{
+.shopify p {
   margin-right: 90px;
   margin-left: 90px;
   cursor: pointer;
 }
 
-.shopify-img{
+.shopify-img {
   width: 90%;
   height: 200px;
   background: #808080;
@@ -266,5 +270,84 @@ p,h1, h2, h3 {
   cursor: pointer;
 }
 
+.smashing-members-main {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  background: gainsboro;
+  margin-top: 20px;
+}
 
+.smashing-member-left {
+  width: 50%;
+  height: 100%;
+  background: #C0C0C0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
 
+.image-sm {
+  width: 40%;
+  height: 250px;
+  background: #808080;
+}
+
+.text-sm {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-sm h2 {
+  font-size: 60px;
+}
+
+.text-sm p {
+  font-size: 20px;
+}
+
+.text-sm span {
+  width: 50%;
+  color: #808080;
+  background: #808080;
+  font-size: 30px;
+}
+
+.smashing-member-right {
+  width: 50%;
+  height: 700px;
+  display: flex;
+}
+
+.smashing-member-right-column {
+  width: 50%;
+  height: 700px;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+}
+
+.smashing-member-right-column h2 {
+  font-size: 30px;
+}
+
+.smashing-member-right-column p {
+  font-size: 20px;
+}
+
+.image-posts {
+  width:30%;
+  height:15%;
+  background: #A9A9A9;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+}
+
+.smashing-member-right-column:hover {
+  transform: scale(1.05);
+  background: white;
+}
