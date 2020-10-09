@@ -379,3 +379,82 @@ h3{
   justify-content: center;
   align-items: center;
 }
+
+.meet-clicks {
+  width: 100%;
+  height: 1200px;
+  background: #A9A9A9;
+  display: flex;
+  justify-content: center;
+}
+
+.text-mc {
+  margin-top: 80px;
+  width: 60%;
+  height: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-mc p {
+  font-size: 20px;
+}
+
+.text-mc h1 {
+  font-size: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.text-mc h2 {
+  width: 50%;
+  font-size: 50px;
+  margin-right: 150px;
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+.image-mc {
+  width: 80%;
+  height: 500px;
+  background: #808080;
+  cursor: pointer;
+}
+
+.community-links-main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  padding-top: 100px;
+}
+
+.image-cl {
+  width: 220px;
+  height: 200px;
+  margin-left: 100px;
+  transform: rotate(-20deg);
+  background: #696969;
+}
+
+.text-cl {
+  margin: -40px 200px 0 50px;
+  width: 80%;
+  height: 400px;
+}
+
+.text-cl h1 {
+  margin-right: 70%;
+  font-size: 30px;
+}
+
+.text-cl p {
+  font-size: 25px;
+}
+
+.image-cl:hover {
+  transform: rotate(0deg);
+  cursor: pointer;
+}
