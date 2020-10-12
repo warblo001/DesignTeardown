@@ -29,7 +29,7 @@ This project is part from Microverse program, designed to learn to position thin
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/warblo001/DesignTeardown/ecc85f3b89fd94a88cd1bd7de6901886246b8ce0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/warblo001/DesignTeardown/45e8bd13f3fb3ca210fe50c16ee73510942769b9/index.html)
 
 **See the page via the link above**
 
