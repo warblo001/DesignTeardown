@@ -56,7 +56,7 @@ h3 {
   background: #a9a9a9;
   list-style: none;
   width: 10%;
-  height: 50px;
+  height: 40px;
   border-radius: 5px;
 }
 
@@ -79,12 +79,22 @@ h3 {
 
 .latest-articles {
   display: flex;
-  height: 100%;
+  flex-wrap: wrap;
+  height: 1400px;
   width: 100%;
+  position: relative;
+}
+
+.banner-abs {
+  position: absolute;
+  width: 400px;
+  left: 500px;
+  top: 50px;
+  font-size: 30px;
 }
 
 .latest {
-  width: 33.33333%;
+  width: 50%;
   height: 100%;
   cursor: pointer;
 }
@@ -122,8 +132,9 @@ h3 {
 
 .latest-two {
   height: 700px;
-  background: #c0c0c0;
+  background: #9c9c9c;
   cursor: pointer;
+  padding-top: 200px;
 }
 
 .latest-two-configone img {
@@ -172,7 +183,7 @@ h3 {
 
 .latest-three {
   height: 700px;
-  background: #a9a9a9;
+  background: #c0c0c0;
 }
 
 .red-guy {
@@ -201,16 +212,19 @@ h3 {
   width: 20%;
   height: 100%;
   background: #c0c0c0;
-  margin-left: 70px;
+  margin-left: 130px;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .image {
   width: 80%;
-  height: 90%;
+  height: 70%;
   background: #696969;
   transform: rotate(-20deg);
   margin-left: 20px;
+  position: absolute;
+  bottom: 180px;
 }
 
 .image:hover {
@@ -226,7 +240,7 @@ h3 {
 }
 
 .latest-posts {
-  width: 24%;
+  width: 33%;
   height: 100%;
   margin: 20px;
   padding-top: 40px;
@@ -259,9 +273,8 @@ h3 {
 }
 
 .shopify {
-  width: 25%;
+  width: 33%;
   margin: 0 auto;
-  padding-top: 60px;
   margin-left: 10px;
 }
 
@@ -294,18 +307,19 @@ h3 {
 }
 
 .smashing-member-left {
-  width: 50%;
+  width: 33%;
   height: 100%;
   background: #c0c0c0;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .image-sm {
-  width: 40%;
-  height: 250px;
+  width: 50%;
+  height: 200px;
   background: #808080;
   cursor: pointer;
 }
@@ -318,15 +332,59 @@ h3 {
 }
 
 .text-sm h2 {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .text-sm p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .text-sm span {
-  width: 50%;
+  width: 70%;
+  color: #808080;
+  background: #808080;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.smashing-member-tv {
+  width: 100%;
+  height: 100%;
+  background: #c0c0c0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.image-sm-tv {
+  width: 20%;
+  height: 200px;
+  background: #808080;
+  cursor: pointer;
+}
+
+.text-sm-tv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-sm-tv h2 {
+  width: 55%;
+  font-size: 55px;
+}
+
+.text-sm-tv p {
+  width: 60%;
+  font-size: 30px;
+}
+
+.text-sm-tv span {
+  width: 30%;
   color: #808080;
   background: #808080;
   font-size: 30px;
@@ -334,13 +392,13 @@ h3 {
 }
 
 .smashing-member-right {
-  width: 50%;
+  width: 33%;
   height: 700px;
   display: flex;
 }
 
 .smashing-member-right-column {
-  width: 50%;
+  width: 100%;
   height: 700px;
   position: relative;
   margin: 20px;
@@ -431,8 +489,8 @@ h3 {
 }
 
 .image-mc {
-  width: 80%;
-  height: 500px;
+  width: 90%;
+  height: 400px;
   background: #808080;
   cursor: pointer;
 }
@@ -522,7 +580,7 @@ h3 {
 .featured-smashing {
   display: flex;
   width: 100%;
-  height: 400px;
+  height: 430px;
   background: #a9a9a9;
 }
 
@@ -561,11 +619,11 @@ h3 {
 }
 
 .image-book {
-  width: 35%;
+  width: 45%;
   height: 350px;
   background: #696969;
   position: absolute;
-  left: 50%;
+  left: 200px;
   top: -100px;
   transform: rotate(-15deg);
   cursor: pointer;
@@ -680,21 +738,69 @@ footer {
 
 .footer-links {
   width: 90%;
-  height: 25%;
+  height: 35%;
   display: flex;
-
 }
 
 .footer-links ul {
   display: flex;
   width: 90%;
-  height: 100%;
+  height: 190px;
   margin: 0 auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-links ul li {
   margin-left: 20px;
   font-size: 20px;
+  color: #808080;
+  background: #808080;
+  height: 23px;
 }
 
+footer h2{
+  width: 30%;
+  font-size: 17px;
+  margin-left: 490px;
+  margin-bottom: 50px;
+}
+
+footer p {
+  width: 30%;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+}
+
+.images-img {
+  width: 200px;
+  height: 200px;
+  background: #808080;
+  margin: 0 auto;
+}
+
+.images ul{
+  display: flex;
+  width: 40%;
+  height: 60%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  margin-left: -30px;
+}
+
+.images ul li {
+  display: flex;
+  color: #808080;
+  background: #808080;
+  height: 23px;
+  margin-left: 5px;
+  font-size: 15px;
+  padding-left: 0;
+}
