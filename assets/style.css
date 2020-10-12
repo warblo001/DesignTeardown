@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+ --main-font:40px;
+}
+
 p,
 h1,
 h2,
@@ -41,7 +45,7 @@ h3 {
 }
 
 .nav-main {
-  width: 70%;
+  width: 60%;
   height: 100px;
 }
 
@@ -55,7 +59,7 @@ h3 {
 .nav-icons {
   background: #a9a9a9;
   list-style: none;
-  width: 10%;
+  width: 12%;
   height: 40px;
   border-radius: 5px;
 }
@@ -185,7 +189,7 @@ footer p {
 .latest-two-configone h2 {
   margin-left: 20%;
   width: 60%;
-  font-size: 40px;
+  font-size: var(--main-font);
 }
 
 .latest-two-configone h3 {
@@ -346,7 +350,7 @@ footer p {
 }
 
 .text-sm h2 {
-  font-size: 40px;
+  font-size: var(--main-font);
 }
 
 .text-sm p {
@@ -579,7 +583,7 @@ footer p {
 }
 
 .grid-text h2 {
-  font-size: 40px;
+  font-size: var(--main-font);
   cursor: pointer;
 }
 
@@ -612,7 +616,7 @@ footer p {
 
 .text-fs h1 {
   width: 35%;
-  font-size: 40px;
+  font-size: var(--main-font);
   cursor: pointer;
 }
 
@@ -708,7 +712,7 @@ footer p {
 
 .image-blue-left h1 {
   width: 60%;
-  font-size: 40px;
+  font-size: var(--main-font);
 }
 
 .image-blue-left h3 {
@@ -750,7 +754,7 @@ footer p {
 
 .image-blue-text h1 {
   width: 70%;
-  font-size: 40px;
+  font-size: var(--main-font);
   cursor: pointer;
 }
 
@@ -761,7 +765,7 @@ footer p {
 
 .image-blue-text h2 {
   width: 95%;
-  font-size: 40px;
+  font-size: var(--main-font);
   cursor: pointer;
 }
 
@@ -801,6 +805,13 @@ footer {
   background: #808080;
   height: 23px;
   cursor: pointer;
+}
+
+.footer-links li::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  cursor: none;
 }
 
 .images {
