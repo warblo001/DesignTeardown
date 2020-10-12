@@ -74,11 +74,10 @@ h3 {
   background: #808080;
   border-radius: 5px;
   height: 70px;
-  cursor: text;
 }
 
 .search-bar:hover {
-  cursor: text;
+  cursor: pointer;
 }
 
 .latest-articles {
@@ -805,6 +804,7 @@ footer {
   background: #808080;
   height: 23px;
   cursor: pointer;
+  display: flex;
 }
 
 .footer-links li::marker {
